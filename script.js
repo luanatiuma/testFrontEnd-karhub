@@ -9,5 +9,10 @@ function creatCard (imagem, descricao, valor) {
 }
 
 document.querySelector(`#card`).innerHTML = `
-${creatCard(`https://img.freepik.com/fotos-gratis/um-passaro-com-a-palavra-aguia-nas-asas_1340-33393.jpg`, `descrição`, `valor`)}
+${creatCard(`./turbina.png`, `Turbina`, `R$600,00`)}
+${creatCard(`./turbina.png`, `Turbina`, `R$600,00`)}
+${creatCard(`./turbina.png`, `Turbina`, `R$600,00`)}
+${creatCard(`./turbina.png`, `Turbina`, `R$600,00`)}
+${creatCard(`./turbina.png`, `Turbina`, `R$600,00`)}
+${creatCard(`./turbina.png`, `Turbina`, `R$600,00`)}
 `
